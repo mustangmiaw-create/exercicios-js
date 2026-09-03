@@ -3,20 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Prioridade</title>
+ 
+    <title>Verificadores</title>
+ 
+    <link rel="stylesheet" href="style.css">
 </head>
+ 
 <body>
-
-    <h1>Sistema de Prioridade</h1>
-
-    <label for="prioridade">Digite a prioridade:</label>
-    <input type="text" id="prioridade" placeholder="urgente, alta, media ou baixa">
-
-    <button onclick="verificarPrioridade()">Verificar</button>
-
-    <p id="resultado"></p>
-
+ 
+    <h1>Verificador de Idade</h1>
+ 
+    <input type="number" id="idade" placeholder="Digite sua idade">
+ 
+    <button onclick="verificarIdade()">Verificar</button>
+ 
+    <p id="ResultadoIdade"></p>
+ 
+ 
+    <h1>Verificador de Número</h1>
+ 
+    <input type="number" id="numero" placeholder="Digite um número">
+ 
+    <button onclick="verificarNumero()">Verificar</button>
+ 
+    <p id="ResultadoNumero"></p>
+ 
+ 
+    <h1>Aprovação do Aluno</h1>
+ 
+    <input type="number" id="nota" placeholder="Digite sua nota">
+ 
+    <button onclick="verificarNota()">Verificar</button>
+ 
+    <p id="ResultadoNota"></p>
+ 
+ 
     <script src="script.js"></script>
-
+ 
 </body>
 </html>
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 - sistema de prioridade</title>
+</head>
+<body>
+    <h1>Sistema de prioridade</h1>
+ 
+    <label for="campoPrioridade">Digite a prioridade (urgente, alta, media, baixa):</label>
+<br>
+<input type="text" id="campoPrioridade">
+    <button onclick="verificarPrioridade()">Verificar</button>
+ 
+    <!--A mensagem sera exibida aqui-->
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 - sistema de prioridade</title>
+</head>
+<body>
+    <h1>Sistema de prioridade</h1>
+ 
+    <label for="campoPrioridade">Digite a prioridade (urgente, alta, media, baixa):</label>
+<br>
+<input type="text" id="campoPrioridade">
+    <button onclick="verificarPrioridade()">Verificar</button>
+ 
+    <!--A mensagem sera exibida aqui-->
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+<h1>Login Simples</h1>
+ 
+<label for="usuario">Usuário:</label>
+ 
+<br>
+ 
+<input type="text" id="usuario" placeholder="Digite seu usuário">
+ 
+<br>
+ 
+<label for="senha">Senha:</label>
+ 
+<br>
+ 
+<input type="password" id="senha" placeholder="Digite sua senha">
+ 
+<br>
+ 
+<button onclick="verificarLogin()">Entrar</button>
+ 
+<p id="ResultadoLogin"></p>
+ 
+<h1>Verificador de Idade - Ternário</h1>
+ 
+<input type="number" id="idadeTernario" placeholder="Digite sua idade">
+ 
+<button onclick="verificarIdadeTernario()">Verificar</button>
+ 
+<p id="ResultadoTernario"></p>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Sistema de Desconto</title>
+</head>
+ 
+<body>
+ 
+    <h1>Sistema de Desconto</h1>
+ 
+    <label>Valor da compra:</label>
+<input type="number" id="valorCompra" value="350">
+ 
+    <br><br>
+ 
+    <label>Cliente VIP:</label>
+<select id="clienteVip">
+<option value="true">Sim</option>
+<option value="false">Não</option>
+</select>
+ 
+    <br><br>
+ 
+    <button onclick="calcularDesconto()">Calcular</button>
+ 
+    <h2>Resultado</h2>
+ 
+    <p id="resultadoCompra"></p>
+<p id="resultadoDesconto"></p>
+<p id="resultadoFinal"></p>
+
+<div class="CardJS">
+        <h1>Validação de Tarefa</h1>
+       
+        <label for="validação">
+            <input type="checkbox" id="validaçãoTarefa">
+            Tarefa Concluida
+        </label>
+ 
+        <button onclick="verificarTarefa()">Verificar</button>
+ 
+        <p id="resultadoValidaçãoTarefa"></p>
+    </div>
+ 
+ 
+    <script src="script.js"></script>
+ 
+</body>
+</html>
+ 
